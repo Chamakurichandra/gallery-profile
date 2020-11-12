@@ -139,7 +139,7 @@ export default class Profile extends React.Component{
                 </div>
             )):""}
             <hr></hr>
-            <a href="/Team">
+            <a href="/">
             <button onClick={()=>this.click} type="button" className="btn btn-danger btn-block">Signout</button>
             </a>
             </div>
