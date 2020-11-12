@@ -115,7 +115,7 @@ export default class Profile extends React.Component{
                 <div className="card-title"> 
                 <div className="dropdown" >
                     <div onClick={this.showPopUp}>
-            <img className="img" data-toggle="dropdown" style={{width:"50px",height:"50px",margin:"1em"}} src={user.profilepicture} alt=""></img> <span data-toggle="dropdown">{user.name}</span> 
+            <img className="img" data-toggle="dropdown" style={{width:"50px",height:"50px",margin:"1em",cursor:"pointer"}} src={user.profilepicture} alt=""></img> <span data-toggle="dropdown" style={{cursor:"pointer"}}>{user.name}</span> 
             <div className="dropdown-menu">
             <div className="dropdown-item">
                 <div style={{textAlign:"center"}}>
@@ -128,10 +128,10 @@ export default class Profile extends React.Component{
                 <div onClick={()=>this.Logic(element)}>
                     <div className="row">
                     <div className="col">
-                <img className="img" style={{width:"50px",height:"50px",marginTop:"0.5em"}} src={element.profilepicture} alt=""></img>
+                <img className="img" style={{width:"50px",height:"50px",marginTop:"0.5em",cursor:"pointer"}} src={element.profilepicture} alt=""></img>
                 </div>
                 <div className="col">
-                    <div style={{marginTop:"1.2em"}}>
+                    <div style={{marginTop:"1.2em", cursor:"pointer"}}>
                 {element.name}
                 </div>
                 </div>
