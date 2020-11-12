@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+.pro{
+  border-radius: 50%;
+  height: 30px;
+  width: 40px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.team{
+  width: 30%;
+  border: 10px black;
+  margin: auto;
+  box-shadow: 5px 5px 5px 5px gray;
+  height: 400px;
+  overflow-y:scroll;
+  overflow-x: hidden;
+  border-radius: 5%;
+  font-weight: bolder;
+  margin-top:10em;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.team-1{
+  margin: 1em;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.pro-1{
+  background-color: blue;
   color: white;
+  margin-top: 1em;
+  padding: 2em;
+  opacity: 0.8;
+  border-radius: 10%;
+  width: 80%;
 }
-
-.App-link {
-  color: #61dafb;
+hr{
+  font-weight: bolder;
+  font-size: 5em;
+  color: red;
+  background-color:white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pro-2{
+  margin-top:5em;
+}
+.pro-3{
+  margin-bottom: 5em;
+}
+.card{
+  border-bottom: none;
+  border-right: none;
+  border-top: none;
+}
+.img{
+  border-radius: 50%;
+  margin-left: 1em;
+}
+.dropdown-menu{
+  border-radius: 10%;
+}
+.dropdown-item:hover{
+  border-radius: 10%; 
+  background-color: white;
+}
+a:hover{
+  text-decoration: none;
+}
+.head{
+  text-align: center;
+  font-size: 2em;
+  background-color: grey;
+  opacity: 0.5;
+  padding: 0.7em;
 }
